@@ -1,0 +1,41 @@
+# ---- Data (never commit raw data to this public repo) ----
+*.xlsx
+*.xls
+*.csv
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.npy
+*.npz
+Elastography_images/
+data/
+artifacts/
+ablation_results/
+lotmo_results/
+
+# ---- Model weights ----
+*.keras
+*.h5
+*.weights.h5
+*.pkl
+*.joblib
+
+# ---- Secrets / environment ----
+.env
+.env.*
+*.key
+comet.config
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
