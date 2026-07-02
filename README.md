@@ -35,8 +35,8 @@ token**; self-attention then fuses both modalities (token-level cross-modal fusi
 │   ├── MM-Transformer-Attention.ipynb     # Transformer + attention-layer variant
 │   └── MM-Simple-Baseline.ipynb           # Simple multimodal CNN baseline
 ├── experiments/                # Reproduces the paper's validation analyses
-│   ├── MM-ViT16_ablation_study.ipynb      # Fusion ablation (Reviewer #2.3, #2.4)
-│   ├── MM-ViT16_leave_one_tumor_out.ipynb # LOTMO generalization (Reviewer #2.2)
+│   ├── MM-ViT16_ablation_study.ipynb      # Fusion ablation across modalities
+│   ├── MM-ViT16_leave_one_tumor_out.ipynb # Leave-one-tumor-model-out generalization
 │   └── Model_Comparison.ipynb             # Cross-architecture comparison
 ├── baselines/
 │   └── stiffness_only_logistic_regression.py   # Stiffness-only (kPa) baseline
